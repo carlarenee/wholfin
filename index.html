@@ -23,48 +23,49 @@
 
     <container id="container">
       <div id="box">
+      <form action="http://localhost:8000/page2.html" method="get" >
 
-      <form action="http://localhost:8000/showForm" class="list-maker-form" method="get" >
-      <input type="radio" class="packageOption" name="package" value="privateDive">
         <div id="optionBoxes" class="optionBox1">
+        <input type="radio" name="package" value="privateDive">
           <h3>Private Dive</h3>
           <img src="privateDive.png" />
-          <form action="select_time">
+          <form action="http://localhost:8000/page2.html" method="get" >
             <input type="radio" name="time" value="30">30 Minute Dive</br>
             <input type="radio" name="time" value="60">60 Minute Dive</br>
             <input type="radio" name="time" value="90">90 Minute Dive</br>
           </form>
-          <button>Check Out</button>
         </br>
+        </div>
 
 
-      <input type="radio" name="package" value="groupDive">
         <div id="optionBoxes" class="optionBox2">
+        <input type="radio" name="package" value="groupDive">
           <h3>Group Dive</h3>
           <img src="groupDive.png" />
-          <form action="select_time">
+          <form action="http://localhost:8000/page2.html" method="get" >
             <input type="radio" name="time" value="30">30 Minute Dive</br>
             <input type="radio" name="time" value="60">60 Minute Dive</br>
             <input type="radio" name="time" value="90">90 Minute Dive</br>
           </form>
-          <button>Check Out</button>
+          </br>
         </div>
-      </br>
 
-      <input type="radio" name="package" value="surfari">
+
+
         <div id="optionBoxes" class="optionBox3">
+        <input type="radio" name="package" value="surfari">
           <h3>Surfari</h3>
           <img src="surfari.png" />
-          <form action="select_time">
+          <form action="http://localhost:8000/page2.html" method="get" >
             <input type="radio" name="time" value="30">30 Minute Dive</br>
             <input type="radio" name="time" value="60">60 Minute Dive</br>
             <input type="radio" name="time" value="90">90 Minute Dive</br>
           </form>
-          <button>Check Out</button>
+          </br>
         </div>
-      </br>
 
-        <a href="page2.html">page 2</a>
+
+        <input type="submit" value="submit"><a href="page2.html">page 2</a></input>
 
       </div>
     </container>

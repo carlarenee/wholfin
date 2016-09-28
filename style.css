@@ -34,6 +34,7 @@ h3 {
  border-radius: 10px;
  display: inline-block;
  text-align: center;
+ padding: 5px;
 
 }
 
@@ -82,5 +83,11 @@ h3 {
 }
 
 .optionButton {
+
+}
+
+.packageOption {
+  display: inline-block;
+  float: left;
 
 }
