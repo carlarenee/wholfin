@@ -104,6 +104,15 @@ h3 {
   border-radius: 10px;
 }
 
+#wholfin {
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  background-color: #AED1F9;
+  border-radius: 10px;
+}
+
 button {
   float: right;
   height: 45px;
