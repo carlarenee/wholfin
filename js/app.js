@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
   console.log('this is after the dom loaded');
 
+
+ // var $listForm = document.querySelector('.list-maker-form');
+
   // var $listForm = document.querySelector('.list-maker-form');
 
   // jquery
@@ -13,7 +16,6 @@ document.addEventListener('DOMContentLoaded', function() {
   }, function() {
     $(this).css('border', 'none');
   });
-
 
 });
 
