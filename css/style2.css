@@ -2,18 +2,28 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+  color: gray;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 1.2em;
 }
+
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 4em;
   color: white;
 }
 p {
-  padding-bottom: 4px;
+  font-size: 20px;
 }
-.wrapper {
+/*input [type="text"] {
+  width: 200px;
+  height: 240px:*/
+}
+#wrapper {
    min-height: 100%;
-   position: relative;
+   position: ;
+   background-color: 'green';
+   margin: 0 auto;
 }
 
 /*.header {
@@ -48,29 +58,31 @@ p {
 }
 
 #form {
-  margin: 20px;
-  padding: 20px;
+  margin: 5px;
+  padding: 50px;
   overflow: auto;
+
 }
 .footer {
   color: white;
   background-color: black;
   height: 10vh;
-  width: 100%
+  width: 100%;
   clear: both;
   padding: 20px;
   position: fixed;
+  bottom: 0;
 }
 #page2 {
- background-color:rgb(220,220,220);
- height: 300px;
+ background-color:rgba(41,138,212, .3);
+ height: 600px;
  width: 300px;
- margin: 20px 50px 20px 50px;
+ margin: 20px 0px 20px 50px;
  overflow: auto;
  border-radius: 10px;
  display: inline-block;
- text-align: center;
- padding: 5px;
+ text-align: left;
+ padding: 10px;
  }
 
  button {
