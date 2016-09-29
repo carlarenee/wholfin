@@ -29,6 +29,12 @@ h3 {
   font-size: 1.5em;
 }
 
+h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+  color: black;
+}
+
 #optionBoxes {
  background-color:rgb(220,220,220);
  height: 300px;
@@ -119,16 +125,18 @@ h3 {
 }
 button {
   float: right;
-  height: 45px;
-  width: 100px;
-  padding: 2px;
+  height: 60px;
+  width: 120px;
   margin: 20px;
+  border: 0px;
   border-radius: 10px;
-  background-color: orange;
+  background-image: url("../assets/btn-01.png");
+  background-size: 100%;
 }
 
 button:hover {
-  border: 15px dashed orange;
+  background-image: url("../assets/btnhover-01.png");
+  background-size: 100%;
 }
 
 #textbox {
