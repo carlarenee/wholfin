@@ -12,13 +12,13 @@ document.addEventListener('DOMContentLoaded', function() {
   var $columns = $('.columns');
   $columns.hover(function() {
     $(this).css('border', '2px solid black');
+    $('#p1').fadeIn();
   }, function() {
     $(this).css('border', 'none');
   });
 
-
-
-
 });
 
 console.log('this is before the dom loaded');
+
+$('.box').hide();

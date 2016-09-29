@@ -81,6 +81,7 @@ h3 {
   background-color: black;
   height: 100px;
   clear: both;
+  padding: 20px;
 }
 
 #package-type {
@@ -137,14 +138,29 @@ button {
 
 #textbox {
   width: 1000px;
-  height: 250px;
+  height: 180px;
   margin: 0 auto;
   margin-top: 20px;
   background-color: red;
 }
+<<<<<<< HEAD
 p {
   padding-bottom: 4px;
 }
+=======
+
+#thumbs {
+  width: 200px;
+  background-color: black;
+}
+
+.thumbImg {
+  height: 50px;
+  width: 150px;
+  background-color: blue;
+}
+
+>>>>>>> ce7e17635e5d4cc26f07bc92fd132c01fb42f298
 #optionWrapper {
   margin: 0 auto;
   text-align: center;
@@ -165,6 +181,19 @@ p {
 
 .left {
   margin-left: 20px;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  height: 100px;
+  padding: 20px;
+  clear: both;
+}
+
+.columns {
+  display: inline-block;
+  float: left;
 }
 
 
