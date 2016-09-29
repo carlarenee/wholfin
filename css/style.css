@@ -45,7 +45,6 @@ h3 {
 }
 
 #form {
-  border: solid black 1px;
   margin: 20px;
   padding: 20px;
   overflow: auto;
@@ -114,8 +113,8 @@ h3 {
 #wholfin {
   display: inline-block;
   text-align: center;
-  margin: 5px;
-  padding: 10px;
+  margin: 20px;
+  padding: 5px;
   background-color: #AED1F9;
   border-radius: 10px;
 }
@@ -137,6 +136,14 @@ button {
   background-color: orange;
 }
 
+#textbox {
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: red;
+}
+
 #optionWrapper {
   margin: 0 auto;
   text-align: center;
@@ -149,3 +156,5 @@ button {
 .left {
   margin-left: 20px;
 }
+
+
