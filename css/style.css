@@ -83,6 +83,7 @@ h3 {
   background-color: black;
   height: 100px;
   clear: both;
+  padding: 20px;
 }
 
 #package-type {
@@ -141,5 +142,15 @@ button {
 .left {
   margin-left: 20px;
 }
+
+.footer {
+  color: white;
+  background-color: black;
+  height: 100px;
+  padding: 20px;
+  clear: both;
+}
+
+
 
 
