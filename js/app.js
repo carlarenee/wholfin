@@ -20,5 +20,3 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 console.log('this is before the dom loaded');
-
-$('.box').hide();
