@@ -25,6 +25,7 @@
 <div id="wrapper">
   <div id="page2">
     <h2>Tell us about you</h2>
+
       <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
       <p>First name</p>
       <input type="text" name="firstName"><br>
@@ -36,6 +37,19 @@
       <input type="number" name="phone"><br>
       <p>Special requests, or accomodations<br></p>
       <textarea rows="4" cols="20" wrap="hard" maxlength="250" placeholder="Up to 250 characters allowed"></textarea>
+
+    <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
+        <p>First name</p>
+        <input type="text" name="firstName"><br>
+        <p>Last name<br></p>
+        <input type="text" name="lastName"><br>
+        <p>Email address<br></p>
+        <input type="email" name="email"><br>
+        <p>Phone number<br></p>
+        <input type="tel size=4" name="phone"><br>
+        <p>Special requests, or accomodations<br></p>
+        <textarea rows="4" cols="20" wrap="hard" maxlength="250" placeholder="Up to 250 characters allowed"></textarea>
+
   </div>
   <div id='page2' class='elContainer'>
     <p>You have selected:</p>
