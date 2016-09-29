@@ -22,31 +22,36 @@
     </header>
 
 
-  <container>
 
-   <div class="left">
-    <h1>Tell us about you</h1>
+
+   <div class="page2" class="clearfix">
+    <h2>Tell us about you</h2>
     <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
-        First name<br>
+        <p>First name</p>
         <input type="text" name="firstName"><br>
-        Last name<br>
+        <p>Last name<br></p>
         <input type="text" name="lastName"><br>
-        Email address<br>
+        <p>Email address<br></p>
         <input type="email" name="email"><br>
-        Phone number<br>
+        <p>Phone number<br></p>
         <input type="number" name="phone"><br>
-        Special requests, or accomodations<br>
+        <p>Special requests, or accomodations<br></p>
         <textarea rows="4" cols="20" wrap="hard" maxlength="250" placeholder="Up to 250 characters allowed"></textarea>
   </div>
-   <div class ="right">
+        <div class='elContainer' id='confirm'>
+        <p>You have selected:</p>
+      </div>
+
+   <div class="page2">
+        <p>Where would you like to swim?</p>
        <input type="radio" name="location" value="New York"> New York<br>
        <input type="radio" name="location" value="Hawaii"> Hawai'i<br>
     </div>
 
-  <div class='elContainer'></div>
+
 
     <button type="submit">Swim!</button>
-  </container>
+
 
   <footer class="footer">
       <h2>Wholfin Dive</h2>
