@@ -139,10 +139,21 @@ button {
 
 #textbox {
   width: 1000px;
-  height: 250px;
+  height: 180px;
   margin: 0 auto;
   margin-top: 20px;
   background-color: red;
+}
+
+#thumbs {
+  width: 200px;
+  background-color: black;
+}
+
+.thumbImg {
+  height: 50px;
+  width: 150px;
+  background-color: blue;
 }
 
 #optionWrapper {
@@ -166,6 +177,9 @@ button {
   clear: both;
 }
 
-
+.columns {
+  display: inline-block;
+  float: left;
+}
 
 
