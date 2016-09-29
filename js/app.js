@@ -11,11 +11,16 @@ document.addEventListener('DOMContentLoaded', function() {
   // show border when hovering over individual columns
   var $columns = $('.columns');
   $columns.hover(function() {
-    $(this).css('border', '2px solid black');
+    $(this).css('border', '4px solid blue');
     $('#p1').fadeIn();
   }, function() {
     $(this).css('border', 'none');
   });
+
+
+  /// text display
+
+
 
 });
 

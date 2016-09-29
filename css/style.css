@@ -24,10 +24,15 @@ h2 {
   font-size: 1.2em;
 }
 
-
 h3 {
   font-family: 'Lobster', cursive;
   font-size: 1.5em;
+}
+
+h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+  color: black;
 }
 
 #optionBoxes {
@@ -75,14 +80,6 @@ h3 {
   float: left;
 }
 
-.footer {
-  color: white;
-  background-color: black;
-  height: 100px;
-  clear: both;
-  padding: 20px;
-}
-
 #package-type {
   display: inline-block;
   text-align: center;
@@ -128,11 +125,18 @@ h3 {
 }
 button {
   float: right;
-  height: 45px;
-  width: 100px;
-  padding: 2px;
+  height: 60px;
+  width: 120px;
   margin: 20px;
-  background-color: orange;
+  border: 0px;
+  border-radius: 10px;
+  background-image: url("../assets/btn-01.png");
+  background-size: 100%;
+}
+
+button:hover {
+  background-image: url("../assets/btnhover-01.png");
+  background-size: 100%;
 }
 
 #textbox {
@@ -145,7 +149,6 @@ button {
 
 p {
   padding-bottom: 4px;
-  font-size: 1.5em;
 }
 
 #thumbs {
