@@ -117,3 +117,11 @@ button {
   margin: 0 auto;
   text-align: center;
 }
+
+.left h1 {
+  color: black;
+}
+
+.left {
+  margin-left: 20px;
+}
