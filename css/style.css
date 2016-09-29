@@ -42,7 +42,6 @@ h3 {
  text-align: center;
  padding: 5px;
  clear: float;
-
 }
 
 #form {
@@ -50,7 +49,6 @@ h3 {
   padding: 20px;
   overflow: auto;
 }
-
 
 .header {
   background-image: url("../assets/headerImg-01.png");
@@ -104,6 +102,15 @@ h3 {
   border-radius: 10px;
 }
 
+#confirm {
+  float: left;
+  display: inline-block;
+  margin: 5px;
+  padding: 10px;
+  background-color: #AED1F9;
+  border-radius: 10px;
+}
+
 #wholfin {
   display: inline-block;
   text-align: center;
@@ -112,7 +119,15 @@ h3 {
   background-color: #AED1F9;
   border-radius: 10px;
 }
-
+.page2 {
+  float: left;
+  display: inline-block;
+  text-align: left;
+  margin: 5px;
+  padding: 10px;
+  background-color: #AED1F9;
+  border-radius: 10px;
+}
 button {
   float: right;
   height: 45px;
