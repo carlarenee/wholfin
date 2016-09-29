@@ -143,11 +143,10 @@ button {
   margin-top: 20px;
   background-color: red;
 }
-<<<<<<< HEAD
+
 p {
   padding-bottom: 4px;
 }
-=======
 
 #thumbs {
   width: 200px;
@@ -160,7 +159,6 @@ p {
   background-color: blue;
 }
 
->>>>>>> ce7e17635e5d4cc26f07bc92fd132c01fb42f298
 #optionWrapper {
   margin: 0 auto;
   text-align: center;
