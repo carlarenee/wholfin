@@ -101,15 +101,6 @@ h3 {
   border-radius: 10px;
 }
 
-#confirm {
-  float: left;
-  display: inline-block;
-  margin: 5px;
-  padding: 10px;
-  background-color: #AED1F9;
-  border-radius: 10px;
-}
-
 #wholfin {
   display: inline-block;
   text-align: center;
@@ -118,14 +109,22 @@ h3 {
   background-color: #AED1F9;
   border-radius: 10px;
 }
-.page2 {
-  float: left;
+#confirm {
   display: inline-block;
-  text-align: left;
   margin: 5px;
   padding: 10px;
   background-color: #AED1F9;
   border-radius: 10px;
+}
+.page2 {
+  display: inline-block;
+  text-align: left;
+  margin: 20px;
+  padding: 10px;
+  background-color: #AED1F9;
+  border-radius: 10px;
+  margin-left: -300px;
+
 }
 button {
   float: right;
@@ -143,7 +142,9 @@ button {
   margin-top: 20px;
   background-color: red;
 }
-
+p {
+  padding-bottom: 4px;
+}
 #optionWrapper {
   margin: 0 auto;
   text-align: center;
@@ -151,6 +152,15 @@ button {
 
 .left h1 {
   color: black;
+}
+
+.clearfix {
+  visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
 }
 
 .left {
