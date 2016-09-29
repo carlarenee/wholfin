@@ -43,5 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
     $input.value = value;
     var $form = document.querySelector('form');
     $form.appendChild($input);
+
+
+    // jquery effects
+    
   }
 });
