@@ -13,7 +13,6 @@ body {
   overflow: auto;
 }
 
-
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 4em;
@@ -105,8 +104,8 @@ h3 {
 #wholfin {
   display: inline-block;
   text-align: center;
-  margin: 20px;
-  padding: 5px;
+  margin: 5px;
+  padding: 10px;
   background-color: #AED1F9;
   border-radius: 10px;
 }
@@ -146,17 +145,22 @@ button {
 
 p {
   padding-bottom: 4px;
+  font-size: 1.5em;
 }
 
 #thumbs {
   width: 200px;
+  height: 180px;
   background-color: black;
+  text-align: center;
 }
 
 .thumbImg {
   height: 50px;
   width: 150px;
   background-color: blue;
+  margin: auto;
+  margin-top: 10px;
 }
 
 #optionWrapper {
@@ -189,9 +193,23 @@ p {
   clear: both;
 }
 
+#social {
+  display: inline-block;
+  float: right;
+  height: 50px;
+  width: 200px;
+}
+
+#social img {
+  height: 50px;
+  width: 50px;
+  margin: 0 4px;
+}
+
 .columns {
   display: inline-block;
   float: left;
+  margin: 20px;
 }
 
 
