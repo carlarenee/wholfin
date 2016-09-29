@@ -12,74 +12,69 @@
   <body>
 
     <header class="header">
-      <div class="logoBox">
-        <img src="assets/wholfinLogo.png" />
-      </div>
-      <div class="logo">
-        <h1>Wholfin Dive</h1>
-      </div>
-
+        <div class="logoBox">
+          <img src="assets/logo-01.png" />
+        </div>
+        <div class="logo">
+          <h1>Wholfin Dive</h1>
+        </div>
     </header>
 
 
-    <container id="container">
+  <div id="form">
 
-      <div id="box">
+  <form action="http://localhost:8000/page2.html" method="get" >
 
-        <div id="optionBoxes" class="optionBox1">
-          <h3>Private Dive</h3>
-          <img src="assets/privateDive.png" />
+      <div id="option1">
 
-          <p>This is an amazing way to swim all by yourself with a real live wholfin</p>
-        </div>
+        <label><h2>Which type of Wholfin Experience would you like?</h2></label></br>
 
-
-        <div id="optionBoxes" class="optionBox2">
-          <h3>Group Dive</h3>
-          <img src="assets/groupDive.png" />
-
-        </div>
-
-        <div id="optionBoxes" class="optionBox3">
-          <h3>Surfari</h3>
-          <img src="assets/surfari.png" />
-
-        </div>
-
-      </div>
-    </container>
-
-
-
-<div id="form">
-<form action="http://localhost:8000/page2.html" method="get" >
-        <label>Which type of Wholfin Experience would you like?</label></br>
+          <div>
+            <img src="assets/privateDive.png" />
+          </div>
 
           <input type="radio" name="package" value="private">Private Dive<br>
           <input type="radio" name="package" value="group">Group Dive<br>
           <input type="radio" name="package" value="surfari">Surfari</br>
 
-        <label>How long would you like your Wholfin Experience to last?</label></br>
+      </div>
+
+      <div id="option2">
+
+        <label><h2>How long would you like your Wholfin Experience to last?</h2></label></br>
+
+          <div>
+            <img src="assets/groupDive.png" />
+          </div>
 
           <input type="radio" name="duration" value="30min">30 min<br>
           <input type="radio" name="duration" value="60min">60 min<br>
           <input type="radio" name="duration" value="90min">90 min</br>
 
-          <div id="optionBoxes" class="optionBox2">
-          <h3>Group Dive</h3>
-          <img src="assets/groupDive.png" />
-          <p>This is an amazing way to swim all by yourself with a real live wholfin</p>
-        </div>
+      </div>
 
+      <div id="option2">
 
-  <button type="submit">Continue to Checkout</button>
-</form>
-</div>
+        <label><h2>How long would you like your Wholfin Experience to last?</h2></label></br>
 
-    <footer class="footer">
-      <h1>Wholfin Dive</h1>
-    </footer>
+          <div>
+            <img src="assets/groupDive.png" />
+          </div>
 
+          <input type="radio" name="duration" value="30min">30 min<br>
+          <input type="radio" name="duration" value="60min">60 min<br>
+          <input type="radio" name="duration" value="90min">90 min</br>
+
+      </div>
+
+       </br>
+      <button type="submit">Continue to Checkout</button>
+  </form>
+  </div>
+
+  <footer class="footer">
+      <h2>Wholfin Dive</h2>
+  </footer>
 
   </body>
 
