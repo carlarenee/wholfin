@@ -122,6 +122,14 @@ button {
   background-color: orange;
 }
 
+#textbox {
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: red;
+}
+
 #optionWrapper {
   margin: 0 auto;
   text-align: center;
