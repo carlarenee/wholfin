@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Wholefin Dive Checkout</title>
+  <link rel="stylesheet" href="css/style2.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <script src='js/jquery.js'></script>
+  <script src='js/app2.js'></script>
+</head>
+
+  <body>
+
+
+
+<header class="header">
+        <div class="logoBox">
+          <img src="assets/logo-01.png" />
+        </div>
+        <div class="logo">
+          <h1>Wholfin Dive</h1>
+        </div>
+  </header>
+
+
+<!-- <div id="flipper">
+  <img src="assets/flipper-01.png" />
+  </div>
+ -->
+<div id='wrapper'>
+
+  <div id='page2'>
+    <h2>Tell us about you</h2>
+
+      <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" >
+      <p>First name</p>
+      <input type="text" name="firstName" ><br>
+      <p>Last name<br></p>
+      <input type="text" name="lastName" ><br>
+      <p>Email address<br></p>
+      <input type="text" name="email" ><br>
+      <p>Phone number<br></p>
+       (<input type="text" size=3 class="tel">) <input type="text" size=3 class="tel"> - <input type="text" size=4 class="tel">
+      <p>Special requests, or accomodations<br></p>
+      <textarea rows="4" cols="20" wrap="hard" maxlength="250" placeholder="Up to 250 characters allowed"></textarea>
+
+  </div>
+  <div id='page2' class='elContainer'>
+    <h2>You have selected:</h2>
+  </div>
+  <div id='page2'>
+      <h2>Where would you like to swim?</h2>
+       <input type="radio" name="location" value="New York"> New York<br>
+       <input type="radio" name="location" value="Hawaii"> Hawaii<br>
+  </div>
+</div>
+  </br>
+    <button type="submit"><h4>Swim!</h4></button>
+  </form>
+
+<footer class="footer">
+      <h2>Wholfin Dive</h2>
+        <div id="social">
+        <img src="assets/fb-01.png" />
+        <img src="assets/pi-01.png" />
+        <img src="assets/tw-01.png" />
+        </div>
+  </footer>
+
+</div>
+</body>
+</html>
