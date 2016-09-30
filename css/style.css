@@ -37,9 +37,9 @@ h4 {
 
 #optionBoxes {
  background-color:rgb(220,220,220);
- height: 300px;
- width: 300px;
- margin: 20px 50px 20px 50px;
+ height: 200px;
+ width: 200px;
+ margin: 20px 50px 20px 30px;
  overflow: auto;
  border-radius: 10px;
  display: inline-block;
@@ -87,7 +87,6 @@ h4 {
   padding: 10px;
   background-color: rgba(41,138,212,.3);
   border-radius: 10px;
-  margin-left: 100px;
 }
 
 #package-duration {
@@ -142,32 +141,10 @@ button:hover {
   background-size: cover;
 }
 
-#textbox {
-  width: 1000px;
-  height: 180px;
-  margin: 0 auto;
-  margin-top: 20px;
-  background-color: red;
-}
-
 p {
   padding-bottom: 4px;
 }
 
-#thumbs {
-  width: 200px;
-  height: 180px;
-  background-color: black;
-  text-align: center;
-}
-
-.thumbImg {
-  height: 50px;
-  width: 150px;
-  background-color: blue;
-  margin: auto;
-  margin-top: 10px;
-}
 
 #optionWrapper {
   margin: 0 auto;
@@ -194,12 +171,14 @@ p {
 .footer {
   color: white;
   background-color: black;
-  height: 100px;
-  padding: 20px;
   height: 10vh;
-  bottom: 0;
-  position: fixed;
+  padding: 20px;
+  position: relative;
   width: 100%;
+  clear: both;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 #social {
@@ -226,8 +205,18 @@ p {
   margin: 20px;
 }
 
+.optionPic {
+  width: 350px;
+}
 
+.optionPic img {
+  width: 350px;
+}
 
+#emptydiv {
+  height: 150px;
+  background-color: white;
+}
 /*.columns > input {
   padding:5px;
   margin: 10px;
