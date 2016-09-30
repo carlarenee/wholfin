@@ -9,9 +9,22 @@ body {
 
 h1 {
   font-family: 'Lobster', cursive;
-  font-size: 4em;
   color: white;
+  font-size: 3em;
 }
+
+
+h2 {
+  font-family: 'Lobster', cursive;
+  font-size: 1.2em;
+}
+
+h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+  color: black;
+}
+
 p {
   font-size: 20px;
 }
@@ -19,29 +32,16 @@ p {
   width: 200px;
   height: 240px:*/
 }
-#wrapper {
-   min-height: 100%;
-   position: ;
-   background-color: 'green';
-   margin: 0 auto;
-}
+
 
 /*.header {
   background-color:
   padding: 10px;
 }*/
 
-.header {
-  background-image: url("../assets/headerImg-01.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 200px;
-}
 
-.header img {
-  max-width:100%;
-  max-height:100%;
-}
+
+
 
 .logoBox {
   display: inline-block;
@@ -53,7 +53,7 @@ p {
 
 .logo {
   display: inline-block;
-  margin: 20px;
+  margin: 20px 20px 20px 0;
   float: left;
 }
 
@@ -61,7 +61,6 @@ p {
   margin: 5px;
   padding: 50px;
   overflow: auto;
-
 }
 .footer {
   color: white;
@@ -70,26 +69,77 @@ p {
   width: 100%;
   clear: both;
   padding: 20px;
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
+
+#social {
+  display: inline-block;
+  float: right;
+  height: 50px;
+  width: 200px;
+  margin-right: 50px;
+  margin-top: -30px;
+}
+
+#social img {
+  height: 50px;
+  width: 50px;
+  margin: 0 4px;
+}
+
+#social img:hover {
+  background-image: url("../assets/fbhover-01.png");
+}
+
 #page2 {
  background-color:rgba(41,138,212, .3);
  height: 600px;
  width: 300px;
- margin: 20px 0px 20px 50px;
+ margin: 20px;
  overflow: auto;
  border-radius: 10px;
  display: inline-block;
  text-align: left;
  padding: 10px;
+ float: left;
+
  }
 
  button {
   float: right;
-  height: 45px;
-  width: 100px;
-  padding: 2px;
+  height: 60px;
+  width: 120px;
   margin: 20px;
-  background-color: orange;
+  border: 0px;
+  margin-right: 40px;
+  border-radius: 10px;
+  background-image: url("../assets/btn-01.png");
+  background-size: cover;
+  clear: both;
+
+}
+
+button:hover {
+  background-image: url("../assets/btnhover-01.png");
+  background-size: cover;
+}
+
+.myText {
+  height: 24px;
+
+}
+
+.header {
+  background-image: url("../assets/headerImg-01.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 200px;
+  margin-bottom: 50px;
+}
+
+#wrapper {
+   min-height: 100%;
+   display: inline-block;
+   margin-left: 20px;
 }
