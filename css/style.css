@@ -85,8 +85,9 @@ h4 {
   text-align: center;
   margin: 5px;
   padding: 10px;
-  background-color: #AED1F9;
+  background-color: rgba(41,138,212,.3);
   border-radius: 10px;
+  margin-left: 100px;
 }
 
 #package-duration {
@@ -94,7 +95,7 @@ h4 {
   text-align: center;
   margin: 5px;
   padding: 10px;
-  background-color: #AED1F9;
+  background-color: rgba(41,138,212,.3);
   border-radius: 10px;
 }
 
@@ -102,15 +103,16 @@ h4 {
   display: inline-block;
   text-align: center;
   margin: 5px;
-  padding: 10px;
-  background-color: #AED1F9;
+  padding:10px;
+  background-color: rgba(41,138,212,.3);
   border-radius: 10px;
+
 }
 #confirm {
   display: inline-block;
   margin: 5px;
   padding: 10px;
-  background-color: #AED1F9;
+  background-color: rgba(41,138,212,.3);
   border-radius: 10px;
 }
 .page2 {
@@ -129,14 +131,15 @@ button {
   width: 120px;
   margin: 20px;
   border: 0px;
+  margin-right: 40px;
   border-radius: 10px;
   background-image: url("../assets/btn-01.png");
-  background-size: 100%;
+  background-size: cover;
 }
 
 button:hover {
   background-image: url("../assets/btnhover-01.png");
-  background-size: 100%;
+  background-size: cover;
 }
 
 #textbox {
@@ -193,7 +196,10 @@ p {
   background-color: black;
   height: 100px;
   padding: 20px;
-  clear: both;
+  height: 10vh;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
 }
 
 #social {
@@ -201,12 +207,17 @@ p {
   float: right;
   height: 50px;
   width: 200px;
+  margin-right: 50px;
 }
 
 #social img {
   height: 50px;
   width: 50px;
   margin: 0 4px;
+}
+
+#social img:hover {
+  background-image: url("../assets/fbhover-01.png");
 }
 
 .columns {
@@ -216,3 +227,9 @@ p {
 }
 
 
+
+/*.columns > input {
+  padding:5px;
+  margin: 10px;
+}
+*/
