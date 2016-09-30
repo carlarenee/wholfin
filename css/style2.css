@@ -26,11 +26,18 @@ h4 {
 }
 
 p {
-  font-size: 20px;
+    font-size: 20px;
+    margin-bottom: 0;
 }
-/*input [type="text"] {
-  width: 200px;
-  height: 240px:*/
+input[type="text"] {
+  height: 25px;
+  width: 250px;
+}
+input[type="text"].tel {
+  width: 60px;
+}
+textarea {
+  width: 240px;
 }
 
 
@@ -123,11 +130,6 @@ p {
 button:hover {
   background-image: url("../assets/btnhover-01.png");
   background-size: cover;
-}
-
-.myText {
-  height: 24px;
-
 }
 
 .header {
